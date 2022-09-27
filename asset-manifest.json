@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/video-editor-wasm-react/static/css/main.54222000.css",
+    "main.js": "/video-editor-wasm-react/static/js/main.d74d68c1.js",
+    "static/js/787.c6ef4fd7.chunk.js": "/video-editor-wasm-react/static/js/787.c6ef4fd7.chunk.js",
+    "index.html": "/video-editor-wasm-react/index.html",
+    "main.54222000.css.map": "/video-editor-wasm-react/static/css/main.54222000.css.map",
+    "main.d74d68c1.js.map": "/video-editor-wasm-react/static/js/main.d74d68c1.js.map",
+    "787.c6ef4fd7.chunk.js.map": "/video-editor-wasm-react/static/js/787.c6ef4fd7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54222000.css",
+    "static/js/main.d74d68c1.js"
+  ]
+}

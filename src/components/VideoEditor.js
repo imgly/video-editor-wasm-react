@@ -89,6 +89,9 @@ function VideoEditor() {
                         onChange={(videoFile) => {
                             setVideoFile(videoFile)
                         }}
+                        onRemove={() => {
+                          setVideoFile(undefined)
+                        }}
                     />
                 </div>
                 <div className={"slider-div"}>

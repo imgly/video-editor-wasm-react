@@ -85,9 +85,12 @@ function VideoEditor() {
                 </div>
                 <div className={"upload-div"}>
                     <VideoUpload
-                        disabled={!!videoFile}
+                        disabled={videoFile}
                         onChange={(videoFile) => {
                             setVideoFile(videoFile)
+                        }}
+                        onRemove={() => {
+                            setVideoFile()
                         }}
                     />
                 </div>

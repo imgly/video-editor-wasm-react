@@ -32,7 +32,9 @@ npm start
 
 Open http://localhost:3000 to view the app in your browser
 
-What We Are Building
+## What We Are Building
+
+![simple react wasm video editor](https://imgly-blog-prod.storage.googleapis.com/2023/01/ffmpeg-video-editor-wasm.gif)
 
 This project showcases a web-based video editor built with React and WebAssembly. Users can:
 

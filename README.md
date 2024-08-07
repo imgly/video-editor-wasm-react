@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# Video Editor with Wasm and React
+## Introduction
+This project demonstrates how to build a simple video editor using WebAssembly (Wasm) and React. The editor leverages the ffmpeg.wasm library to perform video processing directly in the browser, allowing users to upload a video, trim it, convert it to a GIF, and download the resulting file.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Getting Started
+### Prerequisites
+Ensure you have the following installed on your system:
 
-## Available Scripts
+* Node.js and npm (8+)
+* React (18.2+)
 
-In the project directory, you can run:
+### Project Setup
 
-### `npm start`
+1. Clone the Repository
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+git clone https://github.com/Tonel/video-editor-wasm-react
+cd video-editor-wasm-react
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+2. Install Dependencies
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Run the Application
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open http://localhost:3000 to view the app in your browser
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+What We Are Building
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project showcases a web-based video editor built with React and WebAssembly. Users can:
 
-### `npm run eject`
+*   Upload a video
+*   Trim the video using a slider
+*   Convert the trimmed portion to a GIF
+*   Download the resulting GIF
+    
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* [**React**](https://reactjs.org/)**:** A popular JavaScript library for building user interfaces, making it easy to create interactive UIs.
+    
+* [**WebAssembly (Wasm)**](https://webassembly.org/)**:** A binary instruction format that enables high-performance applications in the browser, allowing us to run ffmpeg in the browser.
+    
+* [**ffmpeg.wasm**](https://github.com/ffmpegwasm/ffmpeg.wasm)**:** A WebAssembly port of FFmpeg, enabling video and audio processing directly in web applications.
+    
+* [**Ant Design**](https://ant.design/)**:** A popular React UI framework used for the upload button and slider components.
+    
+* [**Video-React****:**](https://www.npmjs.com/package/video-react) A React component for playing videos, providing a simple way to include video playback in our editor.
+    
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+These technologies were chosen to create a responsive and efficient video editor that runs entirely in the browser without the need for a backend server.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For a detailed step-by-step tutorial on how this video editor was built, please refer to the [blog post](https://img.ly/blog/how-to-build-a-video-editor-with-wasm-in-react/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Commercial Alternative
 
-### Code Splitting
+If you are looking for a fully-featured commercial video editor, check out our [Video Editor SDK for the Web](https://img.ly/showcases/cesdk/video-ui/web). It is based on WASM and WebCodecs and runs entirely in the browser, providing powerful video editing features, including cropping, trimming, filters, brightness, color adjustments, and more.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Enjoy building your video editor!
